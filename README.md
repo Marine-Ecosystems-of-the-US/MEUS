@@ -1,3 +1,5 @@
+<img src="report/assets/MEUS_logo.png" width="250">
+
 # ESR Report Template 
 This is a template repository for creating Ecosystem Status Reports in the Gulf region.
 

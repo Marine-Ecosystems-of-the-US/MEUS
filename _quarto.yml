@@ -33,7 +33,7 @@ book:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "report/assets/MEUS_logo.png"
+    logo: "report/assets/MEUS.png"
     favicon: images/favicon.ico
     pinned: true
     align: center

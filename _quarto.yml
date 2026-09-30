@@ -13,10 +13,10 @@ book:
   downloads: [pdf, docx]
   search: true
   author:
-    - name: Marine Ecosystem Division / Ecosytem Assessment Branch
+    - name: Marine Ecosystem Division (ST7)
       affiliations:
-        - name: NOAA Fisheries
-          department: Office of Science and Technology
+        - name: NOAA Fisheries Office of Science and Technology
+          department: Ecosystem Assessment Branch
   chapters:
     - index.qmd
     - report/content/performance_indicators.qmd

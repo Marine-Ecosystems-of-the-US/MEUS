@@ -1,6 +1,5 @@
 ---
 title: The Year in Marine Ecosystems
-lightbox: TRUE
 ---
 
 In this section, we examine the major changes and unusual conditions observed across U.S. marine ecosystems during the reporting year. Indicators are brought together to identify where conditions differed from expected patterns, how unusual those changes were, and the environmental and ecological processes that may have contributed to them. Major findings are developed into ecosystem stories that connect observations across physical and biological systems and highlight their relevance to living marine resources.

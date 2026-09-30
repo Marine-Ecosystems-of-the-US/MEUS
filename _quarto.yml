@@ -4,19 +4,19 @@ project:
 
 book: 
   page-navigation: true
-  title: "[Template] Ecosystem Status Report" 
+  title: "Marine Ecosystems of the United States" 
   date: last-modified
-  site-url: "https://gulf-iea.github.io/ESR-Report-Template" 
-  repo-url: "https://github.com/Gulf-IEA/ESR-Report-Template"
+  site-url: "https://marine-ecosystems-of-the-us.github.io/MEUS/" 
+  repo-url: "https://github.com/Marine-Ecosystems-of-the-US/MEUS"
   repo-actions: [edit, source, issue]
   favicon: report/assets/favicon.ico
   downloads: [pdf, docx]
   search: true
   author:
-    - name: Gulf of America Integrated Ecosystem Assessment Program
+    - name: Marine Ecosystem Division / Ecosytem Assessment Branch
       affiliations:
         - name: NOAA Fisheries
-          department: Southeast Fisheries Science Center
+          department: Office of Science and Technology
   chapters:
     - index.qmd
     - report/content/performance_indicators.qmd
@@ -33,14 +33,14 @@ book:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "report/assets/MEUS_logo.png"
     favicon: images/favicon.ico
     pinned: true
     align: center
-    tools: 
-      - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+#    tools: 
+#      - icon: globe
+#        href: https://nmfs-opensci.github.io
+#        text: "NMFS Open Science"
     style: "docked"
     search: true
     collapse-level: 1

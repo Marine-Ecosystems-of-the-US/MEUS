@@ -1,31 +1,44 @@
-<img src="report/assets/MEUS.png" width="250">
+<img src="report/assets/MEUS.png" width="450">
+
+# Marine Ecosystems of the United States
+The **Marine Ecosystems of the United States (MEUS)** report provides a national-scale view of how U.S. marine ecosystems are changing, where those changes are occurring, and what they may mean for living marine resources and fisheries. MEUS brings together environmental, oceanographic, and ecological information to describe changing conditions across U.S. marine ecosystems, providing a consistent national framework for understanding ecosystem change from year to year. The result is a national ecosystem status report that connects observations and indicators to the places, processes, and living resources they describe.
+
+
+#
 
 # ESR Report Template 
 This is a template repository for creating Ecosystem Status Reports in the Gulf region.
 
-## Folder structure
-* data 
+## Repository structure
+This repository contains the data, code, figures, synthesis products, and report files used to develop the MEUS report.
+
+**data/** 
   * unformatted - data files retrieved from collaborators that cannot be accessed from an online source
   * intermediate - any intermediate data files created from R scripts
   * formatted - final, formatted metric data
     * formatted csvs - csvs formatted in the standard format (see below)  
-    * final objects - metric objects created by running final csv files through the IEAnalyzeR data_prep function 
-* scripts  
+    * final objects - metric objects created by running final csv files through the IEAnalyzeR data_prep function
+
+**scripts/**  
   * metrics
     * automated - scripts for processing metric data that can be pulled automatically from some online source
     * confidential - scripts for processing metric data that is confidential (e.g., fishery-dependent)
     * non-automated - scripts for processing unformatted metric data from the data/unformatted folder
   * plotting - scripts used for plotting metrics and indicators
   * other - home for other assorted code scripts
-* figures
+
+**figures/**
   * plots - home for any metric/indicator plots created from scripts
   * images - home for any other images used in the report/other products
-* synthesis
+
+**synthesis/**
   * data - data files related to indicator synthesis 
   * scripts - scripts related to indicator synthesis
   * outputs - indicator synthesis output files (tables, plots, etc.)
-* report - home for all files needed to create the ESR quarto book report (standard NOAA tech doc format)
-* sandbox - home for any misc. things, works in progress, etc.
+
+**report/** - home for all files needed to create the ESR quarto book report (standard NOAA tech doc format)
+
+**sandbox/** - home for any misc. things, works in progress, etc.
   * prelim_code - home for code during the metric idea development before code review and branch merging
 
 ## Other components of this repository

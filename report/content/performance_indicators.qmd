@@ -1,6 +1,5 @@
 ---
 title: The Changing Baseline
-lightbox: TRUE
 ---
 
 In this section, we report indicators that describe long-term changes in the physical and ecological conditions of U.S. marine ecosystems. These indicators provide context for understanding how conditions in a given year compare with longer-term patterns and trends.

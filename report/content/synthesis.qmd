@@ -1,8 +1,6 @@
 ---
-title: Integrated ecosystem perspectives
+title: Implications for Living Marine Resources
 lightbox: TRUE
 ---
 
-##  {.unnumbered}
-
-Synthesis
+In this section, we examine how major changes in marine ecosystem conditions may affect living marine resources, including changes in habitat, productivity, prey availability, species distributions, and other ecological processes. Where evidence supports a connection between ecosystem conditions and living marine resources, these relationships are described in the context of observed and emerging changes.

@@ -1,1 +1,1 @@
-Sitemap: https://gulf-iea.github.io/ESR-Report-Template/sitemap.xml
+Sitemap: https://marine-ecosystems-of-the-us.github.io/MEUS/sitemap.xml

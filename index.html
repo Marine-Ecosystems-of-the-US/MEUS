@@ -28,26 +28,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -68,9 +49,6 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a01ad134b821f094570d5f8adb318e63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -219,8 +197,6 @@ div.csl-indent {
    
   <ul>
   <li><a href="#about-this-report" id="toc-about-this-report" class="nav-link active" data-scroll-target="#about-this-report"><span class="header-section-number">1</span> About this report</a></li>
-  <li><a href="#indicator-selection" id="toc-indicator-selection" class="nav-link" data-scroll-target="#indicator-selection"><span class="header-section-number">2</span> Indicator selection</a></li>
-  <li><a href="#notes-on-interpreting-time-series-figures" id="toc-notes-on-interpreting-time-series-figures" class="nav-link" data-scroll-target="#notes-on-interpreting-time-series-figures"><span class="header-section-number">3</span> Notes on interpreting time series figures</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Marine-Ecosystems-of-the-US/MEUS/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Marine-Ecosystems-of-the-US/MEUS/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Marine-Ecosystems-of-the-US/MEUS/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -265,63 +241,15 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Editing this template page
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Template text is pulled from the 2025 Caribbean Ecosystem Status Report. Adjust accordingly.</p>
-</div>
-</div>
 <section id="about-this-report" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> About this report</h1>
-<p>The purpose of this report is to synthesize diverse information sources to assist with implementation of ecosystem-based fisheries management in the U.S. Caribbean region, which includes Puerto Rico and the U.S. Virgin Islands (USVI). A suite of indicators that span physical, biological, social and economic elements of the ecosystem are reported with the goal of helping the Caribbean Fishery Management Council (CFMC) and other resource managers measure progress toward fishery management objectives. The report relies on both previously identified proposed indicators and expert vetting to select a suite of indicators that best address the fishery management plan (FMP) objectives for the U.S. Caribbean. Information in this report is organized into two sections: 1) tracking performance toward predefined fishery management objectives, and 2) potential risks to meeting those fishery management objectives.</p>
-<p>The first set of indicators can be used to consider progress toward stated management objectives. Management objectives were gleaned from the Island-based Fishery Management Plans and categorized into seven groups: food production, socioeconomic health, equity, engagement and participation, bycatch reduction, governance, and protection of ecosystems. Each of these sections contains a selection of indicators that can be used to better understand how well these respective management objectives are being met. Note that for some indicators, directionality can be associated with positive or negative progress toward management objectives (e.g., increases in abundance of economically important species is generally associated with improved management). However for other indicators, directionality can be considered neutral (e.g., proportion of diving trips, changes in contribution to revenue), although changes in these indicators represent important shifts in the fishing dynamics of which managers should be aware. The risk indicator section quantifies major stressors (as identified by stakeholders) that capture the potential risks to meeting fishery management objectives. These indicators provide managers with an understanding of the backdrop against which management is occurring. Major changes in these indicators may be associated with decreased effectiveness of fisheries management, if the influences of external environmental or economic stressors are strong relative to influences from adjustments in fishing activity.</p>
-<p>This report was created in Quarto (<a href="https://github.com/quarto-dev/quarto-cli/" class="uri">https://github.com/quarto-dev/quarto-cli/</a>) using the NOAA Quarto book template (<a href="#0" style="font-size: 12pt;">https://github.com/nmfs-opensci/NOAA-quarto-book</a>). A github repository houses all the indicator data and R code used to compile the report (<a href="#0" style="font-size: 12pt;">https://github.com/Gulf-IEA/Caribbean-ESR-2</a>).</p>
-</section>
-<section id="indicator-selection" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Indicator selection</h1>
-<p>The CFMC’s Science and Statistical Committee, as well as the region’s Ecosystem-Based Fishery Management Technical Advisory Panel (EBFM TAP), recently completed a series of conceptual models linking key components of the ecosystem and human activities related to fishing <span class="citation" data-cites="seara2024">(<a href="report/content/references.html#ref-seara2024" role="doc-biblioref">Seara et al. 2024</a>)</span>. This report used these conceptual models as a starting list of proposed indicators and matched the indicators to address progress toward FMP objectives when possible (<a href="#fig-flowchart" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>).</p>
-<div id="fig-flowchart" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="A figure of a flow chart diagram">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-flowchart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures/images/process_flow_chart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2.1: Process for selecting indicators for the U.S. Caribbean Ecosystem Status Report."><img src="figures/images/process_flow_chart.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A figure of a flow chart diagram" width="515"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-flowchart-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.1: Process for selecting indicators for the U.S. Caribbean Ecosystem Status Report.
-</figcaption>
-</figure>
-</div>
-<p>For those objectives that did not have an immediate conceptual model-identified indicator, a decision matrix process was used for expert vetting <span class="citation" data-cites="MONTENERO2021104489">(<a href="report/content/references.html#ref-MONTENERO2021104489" role="doc-biblioref">Montenero et al. 2021</a>)</span>. This decision matrix was composed of a list of proposed indicators compiled from the conceptual models as well as proposed indicators provided via expert input. These potential indicators were vetted and edited by expert small working groups, who then scored a decision matrix of potential indicators against the following decision criteria: long term data availability, measurability, sensitivity to environmental changes, specificity, spatial and temporal scalability, relevance to specific FMP objectives, and responsiveness to management actions.</p>
-</section>
-<section id="notes-on-interpreting-time-series-figures" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Notes on interpreting time series figures</h1>
-<p>Time series data are plotted in a standardized format for ease of interpretation (e.g., <a href="#fig-explot" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>). The x-axis represents the temporal dimension, which may be monthly, yearly, or irregular time steps, and the y-axis represents the indicator value in units specified in the axis label. Measures of uncertainty in the indicator values are also shown, when available. The dashed horizontal line represents the mean indicator value across the entire time series, and the solid horizontal lines denote the mean plus or minus one standard deviation. Red shaded areas and green shaded areas show years for which the indicator value is below or above one standard deviation from the mean, respectively. The blue vertical shaded box highlights the last five years of indicator values, over which additional metrics are calculated. Black circles to the right of each figure indicate whether the indicator values over the last five years are greater (plus sign), less than (minus sign), or within (solid circle) one standard deviation from the mean of the overall time series. Arrows to the right of each figure indicate whether the least squares linear fit through the last five years of data produces a positive or negative slope that is greater than one standard deviation (upward or downward arrows respectively), or less than one standard deviation (left-right arrow).</p>
-<div id="fig-explot" class="quarto-float quarto-figure quarto-figure-center anchored" alt="An example time series plot with a decription of how to interpret it.">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-explot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="figures/images/indicator_selection_diagram.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;3.1: Example time series plot, showing an indicator plotted with its mean and standard deviation, and trend analysis for the most recent five years of data. See text for a more detailed description of specific calculations."><img src="figures/images/indicator_selection_diagram.png" class="img-fluid figure-img" alt="An example time series plot with a decription of how to interpret it."></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-explot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.1: Example time series plot, showing an indicator plotted with its mean and standard deviation, and trend analysis for the most recent five years of data. See text for a more detailed description of specific calculations.
-</figcaption>
-</figure>
-</div>
+<p>The Marine Ecosystems of the United States (MEUS) report synthesizes environmental, oceanographic, ecological, and fisheries information to describe changing conditions across U.S. marine ecosystems. The report brings together a suite of indicators that characterize physical and biological conditions, ecosystem processes, and factors that may affect living marine resources and fisheries.</p>
+<p>MEUS provides a national framework for examining patterns of ecosystem change and placing regional conditions within a broader U.S. context. Indicators are selected based on their relevance to understanding ecosystem conditions, their ability to capture meaningful changes over time, and the availability of consistent data. The report draws on established monitoring programs, research products, and other sources of information to provide a repeatable basis for tracking ecosystem conditions from year to year.</p>
+<p>Information in this report is organized around indicators and synthesis products that describe major patterns and changes observed across U.S. marine ecosystems. Individual indicators provide information about specific environmental or ecological conditions, while synthesis products bring multiple indicators together to examine broader patterns of ecosystem change.</p>
+<p>The report is intended to support ecosystem assessment, scientific synthesis, and fisheries management by providing accessible information on the environmental context in which U.S. fisheries operate. The indicators and synthesis presented here can also help identify emerging patterns and areas where additional investigation may be warranted.</p>
+<p>This report was created in Quarto (<a href="https://github.com/quarto-dev/quarto-cli/" class="uri">https://github.com/quarto-dev/quarto-cli/</a>) using the NOAA Quarto book template (<a href="#0" style="font-size: 12pt;">https://github.com/nmfs-opensci/NOAA-quarto-book</a>). The associated GitHub repository contains the data, code, figures, and other materials used to develop the report.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-MONTENERO2021104489" class="csl-entry" role="listitem">
-Montenero, Kelly, Chris Kelble, and Kathy Broughton. 2021. <span>“A Quantitative and Qualitative Decision-Making Process for Selecting Indicators to Track Ecosystem Condition.”</span> <em>Marine Policy</em> 129: 104489. https://doi.org/<a href="https://doi.org/10.1016/j.marpol.2021.104489">https://doi.org/10.1016/j.marpol.2021.104489</a>.
-</div>
-<div id="ref-seara2024" class="csl-entry" role="listitem">
-Seara, Tarsila, Stacey M. Williams, Kiara Acevedo, et al. 2024. <span>“Development and Analyses of Stakeholder Driven Conceptual Models to Support the Implementation of Ecosystem-Based Fisheries Management in the u.s. Caribbean.”</span> <em>PLOS ONE</em> 19 (5): e0304101. <a href="https://doi.org/10.1371/journal.pone.0304101">https://doi.org/10.1371/journal.pone.0304101</a>.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -748,38 +676,6 @@ Seara, Tarsila, Stacey M. Williams, Kiara Acevedo, et al. 2024. <span>“Develop
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

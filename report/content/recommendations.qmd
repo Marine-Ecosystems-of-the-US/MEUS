@@ -1,5 +1,5 @@
 ---
-title: Research recommendations
+title: Methods and Data
 ---
 
-Recommendations
+This section describes the data sources, methods, and analytical approaches used to develop the indicators and synthesis presented in the report. It includes information on data processing, spatial and temporal frameworks, reference periods, indicator calculations, and considerations for interpreting the results.

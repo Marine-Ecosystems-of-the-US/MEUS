@@ -1,40 +1,40 @@
-name: Metric Idea Form
-description: Use this issue template if you have a lead on a potential metric to include in the ESR
-title: "[Metric Idea]: "
+name: Ecosystem Indicator Idea Form
+description: Use this issue template if you have a lead on a potential Ecosystem Indicator to include in the MEUS
+title: "[Ecosystem Indicator Idea]: "
 labels: ["Idea"]
 
 body:
   - type: markdown
     attributes:
-      value: "Please fill this form out during the development of a potential metric for an ESR. Review and edit this form as more information becomes available."  
+      value: "Please fill this form out during the development of a potential indicator for an ESR. Review and edit this form as more information becomes available."  
    
   - type: input
-    id: metric_name
+    id: indicator_name
     attributes:
-        label: Potential Metric Name
-        description: What is the name of this potential indicator to include in the ESR?
-        placeholder: "Ex: Sea Surface Temperature"
+        label: Potential Ecosystem Indicator Name
+        description: What is the name of this potential ecosystem indicator to include in the ESR?
+        placeholder: "Ex: Marine Heat Waves"
     validations:
         required: true
         
-  # Metric Description
+  # Indicator Description
   - type: textarea
-    id: metric_description
+    id: indicator_description
     attributes:
-        label: Metric description
+        label: Ecosystem Indicator description
         description: Plain language description (one sentence).
     validations:
         required: true
 
-  # Metric Narrative
+  # Indicator Narrative
   - type: textarea
-    id: metric_narrative
+    id: indicator_narrative
     attributes:
-        label: Metric narrative
+        label: Ecosystem Indicator narrative
         description: Please add some details about where this idea came from and why it is important.
     validations:
         required: true
-        
+  
   # Metric Data Source
   - type: textarea
     id: metric_data_source
